@@ -117,6 +117,8 @@ h3
     padding-top:4%;
 }
 
+
+
 #cursorIcon
 {
     background-color:hsl(174, 86%, 45%);
@@ -136,6 +138,11 @@ h3
     box-shadow:0px 5px 10px hsl(174, 77%, 80%);
 
 
+}
+
+#cursorIcon:hover
+{
+    cursor:pointer;
 }
 
 #progressionBar
@@ -195,6 +202,11 @@ h3
     border-radius:40px;
   
     
+}
+
+#switchBillingButton:hover
+{
+    cursor:pointer;
 }
 
 #switchBillingButton div:nth-child(1)
